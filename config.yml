@@ -1,0 +1,67 @@
+#configuration database
+debug: false
+log-prefix: 'Cr'
+database: 
+ host: localhost
+ port: 3306
+#name database
+ name: minecraft
+ prefix: cr_
+#user database
+ user: root
+#password database user
+ pass: root
+ reconnect_interval: 5
+ 
+ 
+comand:
+#disamble comand = false 
+ give: true
+ 
+ 
+crystal:
+#name Crystal home teleporting
+ name: Crystal
+#Teleport coldown in sercond
+ teleport-coldown: 10
+ lore: 
+  - Opis
+ 
+ 
+spawn:
+#Name Crystal spawn teleporting
+ name: spawn
+ lore: 
+  - Opis
+#True enable multi spawn in dimention false disamble it
+ multispawn: false
+ 
+ 
+sethome:
+ submit: "Potwierdz"
+ calnel: "Anuluj"
+ firstprice: 10
+#by how much the percentage will increase compared to the previous one
+ nextprice: 20
+ #Limit set home player 0 disamble limit
+ limit: 50
+#Natural number(true) Integer (false)
+ priseType: false
+ nomoney: Brak wystarczająco dużo pieniądzy
+#Premium player config
+
+
+premium:
+#premium set home 
+ vip: 1
+ svip: 2
+ 
+world:
+ message: "Na tym świecie nie można twożyć newHome"
+ default-newHome: true
+ 
+ 
+teleport:
+ start-message: "Teleport start"
+ time-message: "Teleportacia nastąpi za"
+ calnel-message: "Calnel "

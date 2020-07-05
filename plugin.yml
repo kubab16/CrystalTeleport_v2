@@ -1,0 +1,33 @@
+name: CrystalTeleport
+main: crystal.main.CrystalTeleport
+description: GNU General Public License v3.0
+version: 1.10.1
+api-version: 1.13
+author: kubab162	
+
+commands:
+ giveCrystal:
+  description: Add crystal
+  usage: /giveCrystal <home | spawn>
+  aliases: [home,spawn]
+  permission: admin
+ newhome:
+  description: SetHome
+  usage: /<comands> name
+ setspawn:
+  description: SetHome
+  usage: /setspawn
+  permission: admin
+ worldnewhome:
+  description: Enable/Disamble world create newhome
+  usage: /worldnewhome <true | false>
+  permission: admin
+ crystalinfo:
+  description: Information on plugin
+  
+permissions:
+ admin:
+  description: Administrator player
+  default: op
+  
+ 
